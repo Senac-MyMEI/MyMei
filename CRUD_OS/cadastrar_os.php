@@ -22,7 +22,7 @@
                 <input type="text">
             </div>
             <div>   <!--    input 5 -->
-                <label>Valor pago pelo cliente:</label>
+                <label>Valor pago:</label>
                 <input type="text">
             </div>
             <div>   <!--    input 6 -->
@@ -42,9 +42,10 @@
             </div>
             <div>   <!--    input 10 - NÚMERO OS -->
                 <input type="hidden" name="numero_os" value="OS-<?php echo date('Y') . '-' . str_pad(rand(1,9999), 4, '0', STR_PAD_LEFT);?>">
+                    <!--    =========================================  FAZER MUDANÇAS  ============================================    -->
             </div>
             <div>
-                <button type="submit"> Cadastrar serviço</button>
+                <button type="submit">Cadastrar serviço</button>
             </div>
         </form>
     </div>
